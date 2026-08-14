@@ -25,11 +25,13 @@ Windows
 首次使用地图、路线或油站搜索前，请在网页左下角“设置”中填写你自己的高德 Web 端 Key
 与 securityJsCode，并确认该 Key 允许 localhost / 127.0.0.1 来源访问。
 凭证仅保存在当前浏览器的本机存储中，不会写入源码、导出数据或便携包。
+
 v1.11.1 变化
 
 移除源码与发布包中的全部默认高德 API 凭证。
 设置页提供用户自有 Web Key 与 securityJsCode 的保存、显示和清除入口。
 未配置时地图功能会明确提示，不影响油价计算、方案和加油记录。
+
 v1.11.0 变化
 
 新增 macOS 风格侧边工具坞、沉浸式中央画布与 GLSL 动态环境光。
@@ -37,6 +39,7 @@ v1.11.0 变化
 统一高德地图加载与地点搜索缓存，减少重复 SDK、插件和检索请求。
 行程候选先在本机估算距离，选定终点后才请求一次真实驾车路线。
 “最省钱路线”仍暂时关闭，不会初始化该功能或占用其地点搜索额度。
+
 <img width="1678" height="1081" alt="截屏2026-08-12 23 27 33" src="https://github.com/user-attachments/assets/07612760-b7b2-48af-93ac-195f967ac1d5" />
 <img width="1678" height="1051" alt="截屏2026-08-12 23 53 02" src="https://github.com/user-attachments/assets/e057cd1f-4dac-4886-bbce-91b7455b4f2e" />
 <img width="1678" height="1081" alt="截屏2026-08-12 23 27 41" src="https://github.com/user-attachments/assets/bd384e25-1895-436c-8ca8-91e2024d68ba" />
